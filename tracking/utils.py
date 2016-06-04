@@ -1,6 +1,5 @@
 from django.conf import settings
 import re
-import unicodedata
 
 # this is not intended to be an all-knowing IP address regex
 IP_RE = re.compile('\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}')
